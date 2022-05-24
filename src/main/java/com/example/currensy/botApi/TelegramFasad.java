@@ -21,7 +21,7 @@ import java.util.List;
 @Service
 public class TelegramFasad {
     private List<Currency> currencyList;
-
+// git push bo'mayapti
     public CurrentMessage handleUpdate(Update update) {
         CurrentMessage ans = new CurrentMessage();
         if (update.hasMessage()) {
